@@ -9,23 +9,31 @@
 /* Begin PBXBuildFile section */
 		FAA9453B24FA880900D364DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA9453A24FA880900D364DD /* AppDelegate.swift */; };
 		FAA9453D24FA880900D364DD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA9453C24FA880900D364DD /* SceneDelegate.swift */; };
-		FAA9453F24FA880900D364DD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA9453E24FA880900D364DD /* ViewController.swift */; };
 		FAA9454224FA880900D364DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAA9454024FA880900D364DD /* Main.storyboard */; };
 		FAA9454524FA880900D364DD /* GestionEtudiant.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FAA9454324FA880900D364DD /* GestionEtudiant.xcdatamodeld */; };
 		FAA9454724FA880D00D364DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAA9454624FA880D00D364DD /* Assets.xcassets */; };
 		FAA9454A24FA880D00D364DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAA9454824FA880D00D364DD /* LaunchScreen.storyboard */; };
+		FAA9456424FAD64800D364DD /* AddEtudiantViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA9456324FAD64800D364DD /* AddEtudiantViewController.swift */; };
+		FAA9456624FAD69A00D364DD /* Etudiant.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA9456524FAD69A00D364DD /* Etudiant.swift */; };
+		FAA945B124FB05FB00D364DD /* ListeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA945B024FB05FB00D364DD /* ListeViewController.swift */; };
+		FAB1850424FBD29900E4871A /* EtudiantTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB1850324FBD29900E4871A /* EtudiantTableViewCell.swift */; };
+		FAB1850624FBE44000E4871A /* etudiantCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB1850524FBE44000E4871A /* etudiantCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		FAA9453724FA880900D364DD /* GestionEtudiant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GestionEtudiant.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAA9453A24FA880900D364DD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FAA9453C24FA880900D364DD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FAA9453E24FA880900D364DD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FAA9454124FA880900D364DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FAA9454424FA880900D364DD /* GestionEtudiant.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GestionEtudiant.xcdatamodel; sourceTree = "<group>"; };
 		FAA9454624FA880D00D364DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FAA9454924FA880D00D364DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FAA9454B24FA880D00D364DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAA9456324FAD64800D364DD /* AddEtudiantViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEtudiantViewController.swift; sourceTree = "<group>"; };
+		FAA9456524FAD69A00D364DD /* Etudiant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Etudiant.swift; sourceTree = "<group>"; };
+		FAA945B024FB05FB00D364DD /* ListeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListeViewController.swift; sourceTree = "<group>"; };
+		FAB1850324FBD29900E4871A /* EtudiantTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EtudiantTableViewCell.swift; sourceTree = "<group>"; };
+		FAB1850524FBE44000E4871A /* etudiantCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = etudiantCell.swift; path = GestionEtudiant/Controller/etudiantCell.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,16 +66,52 @@
 		FAA9453924FA880900D364DD /* GestionEtudiant */ = {
 			isa = PBXGroup;
 			children = (
-				FAA9453A24FA880900D364DD /* AppDelegate.swift */,
-				FAA9453C24FA880900D364DD /* SceneDelegate.swift */,
-				FAA9453E24FA880900D364DD /* ViewController.swift */,
-				FAA9454024FA880900D364DD /* Main.storyboard */,
-				FAA9454624FA880D00D364DD /* Assets.xcassets */,
-				FAA9454824FA880D00D364DD /* LaunchScreen.storyboard */,
 				FAA9454B24FA880D00D364DD /* Info.plist */,
-				FAA9454324FA880900D364DD /* GestionEtudiant.xcdatamodeld */,
+				FAA9455424FA886E00D364DD /* SupportingFiles */,
+				FAA9455324FA885F00D364DD /* Controller */,
+				FAA9455224FA884100D364DD /* View */,
+				FAA9455124FA882C00D364DD /* Model */,
 			);
 			path = GestionEtudiant;
+			sourceTree = "<group>";
+		};
+		FAA9455124FA882C00D364DD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FAB1850324FBD29900E4871A /* EtudiantTableViewCell.swift */,
+				FAA9454324FA880900D364DD /* GestionEtudiant.xcdatamodeld */,
+				FAA9456524FAD69A00D364DD /* Etudiant.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FAA9455224FA884100D364DD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FAA9454024FA880900D364DD /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FAA9455324FA885F00D364DD /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FAB1850524FBE44000E4871A /* etudiantCell.swift */,
+				FAA9456324FAD64800D364DD /* AddEtudiantViewController.swift */,
+				FAA945B024FB05FB00D364DD /* ListeViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		FAA9455424FA886E00D364DD /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				FAA9454624FA880D00D364DD /* Assets.xcassets */,
+				FAA9454824FA880D00D364DD /* LaunchScreen.storyboard */,
+				FAA9453A24FA880900D364DD /* AppDelegate.swift */,
+				FAA9453C24FA880900D364DD /* SceneDelegate.swift */,
+			);
+			path = SupportingFiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,8 +185,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAA9453F24FA880900D364DD /* ViewController.swift in Sources */,
+				FAA9456424FAD64800D364DD /* AddEtudiantViewController.swift in Sources */,
 				FAA9453B24FA880900D364DD /* AppDelegate.swift in Sources */,
+				FAB1850424FBD29900E4871A /* EtudiantTableViewCell.swift in Sources */,
+				FAB1850624FBE44000E4871A /* etudiantCell.swift in Sources */,
+				FAA945B124FB05FB00D364DD /* ListeViewController.swift in Sources */,
+				FAA9456624FAD69A00D364DD /* Etudiant.swift in Sources */,
 				FAA9453D24FA880900D364DD /* SceneDelegate.swift in Sources */,
 				FAA9454524FA880900D364DD /* GestionEtudiant.xcdatamodeld in Sources */,
 			);
